@@ -9,7 +9,7 @@ $(function(){
 	    mobile: false // trigger animations on mobile devices (default is true)
 	});
 	wow.init();
-	
+
     var windowHeight = $(window).height();
 
     $(".fullscreen").css("height", windowHeight);
@@ -29,7 +29,7 @@ $(function(){
     });
 
 
-    // menu toggle 
+    // menu toggle
     $(".toggle-btn").on("click", function() {
     	$(this).toggleClass("active");
     	$(".site-header").toggleClass("active");
@@ -49,7 +49,7 @@ $(function(){
             1024 : '_b' // used which images that are more than 640px on the longest side
         }
     });
-    
+
 });
 
 
@@ -58,14 +58,3 @@ $(window).load(function() {
 
     $("#preloader").fadeOut("slow");
 });
-
-
-                    
-
-
-
-
-
-
-
-
