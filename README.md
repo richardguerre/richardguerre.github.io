@@ -1,2 +1,6 @@
 # richardguerre.github.io
-portfolio website
+
+Portfolio website.
+
+Update:
+Now redirects to Notion document.
